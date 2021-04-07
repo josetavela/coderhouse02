@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: black;
+  line-height: 3;
+  text-align: right;
+  width: 100%;
+  align-self: flex-end;
+}
+footer h6 {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-container {
+  background-image: url(imagen/arboles.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.h1-index {
+  font-size: 50px;
+  font-family: "Amargo", serif;
+  color: black;
+  text-align: center;
+  padding: 70px 20px 20px 30px;
+  font-style: italic;
+  margin: auto;
+  display: inline-block;
+  animation-duration: 5s;
+  animation-name: sliein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+.paragraph-index-1 {
+  font-size: 50px;
+  font-family: "Amargo", serif;
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding: 70px 20px 20px 30px;
+  font-style: italic;
+  display: inline-block;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+.formulario {
+  border-top: darkslategray solid 15px;
+  border-bottom: darkslategray solid 15px;
+  margin: 25px;
+  background-color: lightgray;
+  margin-top: 50px;
+  border-top: darkslategray solid black;
+}
+
+.contenedor-conocenos {
+  width: 100%;
+  margin: auto;
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+.background-container{
+    background: url(imagenes/arboles.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.h1-index{
+    font-size: 50px;
+    font-family:"Amargo", serif;
+    color: ivory;
+    text-align: center;
+    padding: 70px 20px 20px 30px;
+    font-style: italic;
+    margin: auto;    
+    display: inline-block;
+        animation-duration: 5s;
+        animation-name: sliein;
+
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+        to {
+          margin-right: 0%;
+          width: 100%;
+        }   
+      }
+
+.paragraph-index-1{
+    font-size: 50px;
+    font-family:"Amargo", serif;
+    color: ivory;
+    text-align: center;
+    margin: auto;
+    padding: 70px 20px 20px 30px;
+    font-style: italic;    
+    display: inline-block;
+        animation-duration: 5s;
+        animation-name: slidein;
+      }
